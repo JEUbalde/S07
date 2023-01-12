@@ -71,6 +71,19 @@ nav .nav, nav .nav-logo{
 	margin: 0px 0.5rem 0px 0.5rem;
 }
 
+#pre-footer{
+	background-color: #002540;
+	color: white;
+	padding: 1.5rem 0.5rem;
+}
+
+#pre-footer .menu{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 20%;
+	margin: 0px 0.5rem 0px 0.5rem;
+}
+
 footer{
 	padding: 0.7rem;
 }
