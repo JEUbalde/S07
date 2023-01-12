@@ -1,0 +1,80 @@
+/*CSS Reset*/
+/*Resets the default margins, paddings, and sizing of the webpage*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*For Google Fonts*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	/*rem is based on the root element which is the <html> and it is amultiplier*/
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	/*thickness, border type, border color*/
+	list-style-type: none;
+}
+
+nav .nav, nav .nav-logo{
+	margin: 0.5rem;
+	display: inline;
+}
+
+#intro{
+	padding: 2rem 10% 3rem 10%;
+	/*TRBL*/
+	text-align: center;
+}
+
+.header{
+	text-align: center;
+}
+
+#intro h2, #intro p{
+	margin-bottom: 1rem;
+}
+
+#intro button{
+	color: white;
+	font-weight: bold;
+	background-color: skyblue;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+#succeed-info{
+	padding: 2rem 10% 3rem 10%;
+}
+
+#succeed-info h2{
+	margin-bottom: 1rem;
+}
+
+#succeed-info h3{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card{
+	/*inline-block is same as inline but it allows us to use the vertical-align property along with it*/
+	display: inline-block;
+	/*aligns the eleements according to the highest element within the line*/
+	vertical-align: top;
+	min-height: 175px;
+	width: 30%;
+	margin: 0px 0.5rem 0px 0.5rem;
+}
+
+footer{
+	padding: 0.7rem;
+}
+
+footer span{
+	margin: 0px 0.5rem 0px 0.5rem;
+}
